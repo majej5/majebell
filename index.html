@@ -47,7 +47,7 @@
 <div class="jumbotron jumbotron-fluid">
 <div class="container">
 <h1 class="display-3">Hello My name Is Maje Bell</h1>
-<p class="lead"> I Am  UX Designer</p>
+<p class="lead">And  I am  UX Designer</p>
 
 </div>
 </div>
@@ -76,23 +76,10 @@
 <div class="col-md-4">
 <div class="card">
 <div class="card-img-top card-img-top-250">
-<img class="img-fluid" src="https://lh5.googleusercontent.com/pkdWwatuSq7uwP2QFraCgFAeK8G4WcZP-l4y1eowd41H4gKwMDjRyGa_PiWu7KK604GGFSp27haEMXes9EGPZWnv1pHuVxiVThaw=w1366-h638-rw" alt="Carousel 1">
+<img class="img-fluid" src="https://github.com/majej5/majebell/blob/master/images/paytentialui.png?raw=true" alt="Carousel 1">
 </div>
 <div class="card-block p-t-2">
-<h6 class="small text-wide">U/X Design</h6>
-<h2>
-<a href>Paytential Splash</a>
-</h2>
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="card">
-<div class="card-img-top card-img-top-250">
-<img class="img-fluid" src="https://lh6.googleusercontent.com/A4RMuUO12ohbDQhL3i-tPKbyH0p8Msg-bFOKfO1euQVUtHVTgyk_oeoI_opS_63mvhreYLfaOqj-TWkoNtwxX6NyCbszLbfffA9i=w1366-h638-rw" alt="Carousel 2">
-</div>
-<div class="card-block p-t-2">
-<h6 class="small text-wide p-b-2">U/I Design</h6>
+<h6 class="small text-wide">U/I Design</h6>
 <h2>
 <a href>Paytential Dash</a>
 </h2>
@@ -102,7 +89,20 @@
 <div class="col-md-4">
 <div class="card">
 <div class="card-img-top card-img-top-250">
-<img class="img-fluid" src="/images/lumos.png" alt="Carousel 3">
+<img class="img-fluid" src="https://raw.githubusercontent.com/majej5/majebell/master/images/Paytential.PNG" alt="Carousel 2">
+</div>
+<div class="card-block p-t-2">
+<h6 class="small text-wide p-b-2">U/X Design</h6>
+<h2>
+<a href>Paytential Splash</a>
+</h2>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-img-top card-img-top-250">
+<img class="img-fluid" src="https://raw.githubusercontent.com/majej5/majebell/master/images/lumos.png" alt="Carousel 3">
 </div>
 <div class="card-block p-t-2">
 <h6 class="small text-wide p-b-2">Media Campaign Design</h6>
@@ -176,16 +176,35 @@
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="https://lh4.googleusercontent.com/UedVb88eYPmOO_iUjOh5PLH37tWXLFX1Nc5zjJVXFMx3Hfk0FI_9w4jT7xLSJKKjwZjiOq8CoSPZTLNRuU09Q8sQrm9QIckEBXf4=w1366-h589-rw" class="img-responsive">
+                <img src="https://raw.githubusercontent.com/majej5/majebell/master/images/drawing.JPG" class="img-responsive">
             </div>
 
 
             </div>
     </div>
-</section>
 
 </div>
 <div id="contact">
+    <form id="ajax-contact" method="post" action="mailer.php">
+    <div class="field">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="field">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="field">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+    </div>
+
+    <div class="field">
+        <button type="submit">Send</button>
+    </div>
+</form>
 </div>
 </div>
 </div>
@@ -215,7 +234,9 @@ $('.navbar-collapse>ul>li>a').click(function() {
 $('.navbar-collapse').collapse('hide');
 });
 
-})(jQuery); // End of use strict
+})(jQuery);
 </script>
+<script src="jquery-2.1.0.min.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
