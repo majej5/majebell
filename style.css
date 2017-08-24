@@ -1,6 +1,5 @@
 html,body{
-    background-color: #B0E163;
-    margin:0;
+    margin:auto;
     padding:0;
     overflow-x: hidden;
 }
@@ -9,11 +8,10 @@ html,body{
     text-align: center;
 }
 .jumbotron{
-  background-color:white;
+background-color: #B0E163; ;
 }
 #vertical-menu {
     height:100vh;
-    background-color: #B0E163;
     position:fixed;
     margin-top:30vh;
     left:-40px;
@@ -26,7 +24,6 @@ html,body{
 }
 
 #vertical-menu a {
-    background-color: #B0E163; 
     color: black;
     display: block;
     padding: 25px; 
@@ -36,9 +33,6 @@ html,body{
 
 
 
-.col-md-11{
-    width:100%;
-}
  /*#pportfolio a.active{
   background-color: #FFB350;
 }
@@ -138,9 +132,9 @@ html,body{
     margin-bottom: 30px;
 }
 
+
 .footer {
   width: 100vw;
-
   background-color: #111;
   text-align: center;
   padding-top:25px;

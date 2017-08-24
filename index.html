@@ -11,39 +11,43 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <html>
 <body>
 <div class="row">
 <div class="col-md-12" id="topper">
-<h1>Maje Bell</h1>
+ <nav class="navbar sticky-top navbar-light bg-faded">
+		
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">Maje Bell</a>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio">Portfolio</a>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link" href="#blog">Gallery</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 </div>
 </div>
 <div class="row">
 <div class="col-md-1">
-<div id="vertical-menu">
-<ul>
-<li id="aabout" class="nav-item">
-<a class="nav-link" href="#topper">About</a>
-</li>
-<li id="pportfolio" class="nav-item">
-<a class="nav-link" href="#portfolio">Portfolio</a>
-</li>
-<li id="bblog"class="nav-item">
-<a class="nav-link" href="#blog">Blog</a>
-</li>
-<li id="ccontact" class="nav-item">
-<a class="nav-link" href="#contact">Contact</a>
-</li>
-</ul>
 </div>
-</div>
-<div class="col-md-11">
+<div class="col-md-10">
 <div id="about">
 <div class="jumbotron jumbotron-fluid">
 <div class="container">
-<h1 class="display-3">A U/X Designer with proven ability to produce functioning websites</h1>
-<p class="lead">with an eye for detail a mind for business and a spirit to create.</p>
+<h1 class="display-3">Hello My name Is Maje Bell</h1>
+<p class="lead"> I Am  UX Designer</p>
 
 </div>
 </div>
@@ -98,7 +102,7 @@
 <div class="col-md-4">
 <div class="card">
 <div class="card-img-top card-img-top-250">
-<img class="img-fluid" src="https://lh4.googleusercontent.com/AhcjcwmazzPVNw3kKCsMQ0VzXs6hmXPUuh16n8NOMQx2aqHH4rPbNpVON_SfvH3PJ-FP57-K0ujkJckz1FJSxbwH4W2xd1tH6oUG=w1366-h638-rw" alt="Carousel 3">
+<img class="img-fluid" src="/images/lumos.png" alt="Carousel 3">
 </div>
 <div class="card-block p-t-2">
 <h6 class="small text-wide p-b-2">Media Campaign Design</h6>
@@ -126,8 +130,7 @@
 <div class="col-md-4">
 <div class="card">
 <div class="card-img-top card-img-top-250">
-<img class="img-fluid" src="https://specs.adfox.ru/help/images/AdobeEdgeHTML3.png
-" alt="Carousel 5">
+<img class="img-fluid" src="https://specs.adfox.ru/help/images/AdobeEdgeHTML3.png" alt="Carousel 5">
 </div>
 <div class="card-block p-t-2">
 <h6 class="small text-wide p-b-2">App Design</h6>
@@ -183,32 +186,14 @@
 
 </div>
 <div id="contact">
-<form id="contact" action="" method="post">
-<h3>Keep In Touch</h3>
-<h4>Contact me today, and get reply with in 24 hours!</h4>
-<fieldset>
-<input placeholder="Your name" type="text" tabindex="1" required autofocus>
-</fieldset>
-<fieldset>
-<input placeholder="Your Email Address" type="email" tabindex="2" required>
-</fieldset>
-<fieldset>
-<input placeholder="Your Phone Number" type="tel" tabindex="3" required>
-</fieldset>
-<fieldset>
-<fieldset>
-<textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
-</fieldset>
-<fieldset>
-<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-</fieldset>
-</form>
 </div>
 </div>
 </div>
+<div class=col-md-1></div>
 <div class="row">
 <div class="col-md-12">
 <div class="footer">
+	<h1>Find Me </h1>
 <a href='https://www.facebook.com/majeb?ref=bookmarks'><i class="fa fa-facebook fa-3x fa-fw"></i></a>
 <a href='https://twitter.com/majEjam88'><i class="fa fa-twitter fa-3x fa-fw"></i></a>
 <a href='https://www.youtube.com/channel/UCXDIteBhIyfYwro_i7yeBtA'><i class="fa fa-youtube-play fa-3x fa-fw"></i></a>
@@ -218,22 +203,6 @@
 </div>
 </div>
 <script>
-(function($) {
-"use strict"; // Start of use strict
-
-// Smooth scrolling using jQuery easing
-$('a[href*="#"]:not([href="#"])').click(function() {
-if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-var target = $(this.hash);
-target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-if (target.length) {
-$('html, body,container').animate({
-scrollTop: (target.offset().top - 54)
-}, 1000, "easeInOutExpo");
-return false;
-}
-}
-});
 
 // Activate scrollspy to add active class to navbar items on scroll
 $('body').scrollspy({
