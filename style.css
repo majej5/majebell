@@ -10,26 +10,6 @@ html,body{
 .jumbotron{
 background-color: #B0E163; ;
 }
-#vertical-menu {
-    height:100vh;
-    position:fixed;
-    margin-top:30vh;
-    left:-40px;
-    list-style-type: none;
-    width:150%;
-}
-
-#vertical-menu ul li {    
-    list-style-type: none;
-}
-
-#vertical-menu a {
-    color: black;
-    display: block;
-    padding: 25px; 
-    text-decoration: none; 
-}
-
 
 
 
