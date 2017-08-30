@@ -16,50 +16,97 @@
 <html>
 <body>
 <div class="row">
-<div class="col-md-12" id="topper">
-<nav class="navbar fixed-top navbar-light bg-faded">
-		
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand" href="#">Maje Bell</a>
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#portfolio">Portfolio</a>
-      </li>
-            <li class="nav-item">
-        <a class="nav-link" href="#blog">Gallery</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <div class="col-md-12">
+<header>
+      <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img class="animated bounceIn" src="img/logo-light.png" alt="Maje Bell"></a>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Blog</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+
+    </header>
 </div>
-</div>
+
 <div class="row">
-<div class="col-md-1">
-</div>
-<div class="col-md-10">
-<div id="about">
+<div class="col-md-12" id="about">
 <div class="jumbotron jumbotron-fluid">
 <div class="container">
-<h1 class="display-3">Hello My name Is Maje Bell</h1>
-<p class="lead">And  I am  UX Designer</p>
-
+<h1 class="display-3">Hello my name is Maje Bell</h1>
+<p class="lead">And  I am Web focued User Exeperiance Designer </p>
 </div>
 </div>
-
 </div>
-<div id="portfolio">
-<div class="row">
 <div class="col-md-12">
-
+    <div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="progress green">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">HTML</div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="progress blue">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">CSS</div>
+            </div>
+        </div>
+                <div class="col-md-3 col-sm-6">
+            <div class="progress yellow">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">Bootstrap</div>
+            </div>
+    </div>
+            <div class="col-md-3 col-sm-6">
+            <div class="progress pink">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">Javascript</div>
+            </div>
+        </div>
+</div>
 <h1>Works</h1>
 </div>
 </div>
+<div id="portfolio">
+<div class="row">
 <div class="carousel slide" data-ride="carousel" id="postsCarousel">
 <div class="container">
 <div class="row">
@@ -130,12 +177,12 @@
 <div class="col-md-4">
 <div class="card">
 <div class="card-img-top card-img-top-250">
-<img class="img-fluid" src="https://specs.adfox.ru/help/images/AdobeEdgeHTML3.png" alt="Carousel 5">
+<img class="img-fluid" src="https://specs.adfox.ru/help/images/AdobeEdgeHTML3.png" alt="Carousel 6">
 </div>
 <div class="card-block p-t-2">
-<h6 class="small text-wide p-b-2">App Design</h6>
+<h6 class="small text-wide p-b-2">Design</h6>
 <h2>
-<a href>Ionic App</a>
+<a href>Coming Soon</a>
 </h2>
 </div>
 </div>
@@ -160,7 +207,7 @@
 <div id="blog">
  <div class="container">
         <div class="row">
-        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="col-md-12">
             <h1 class="gallery-title">Gallery</h1>
         </div>
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
@@ -176,8 +223,8 @@
             </div>
             </div>
     </div>
-
 </div>
+
 <div id="contact">
     <form id="ajax-contact" method="post" action="mailer.php">
     <div class="field">
@@ -200,9 +247,10 @@
     </div>
 </form>
 </div>
+
+
 </div>
 </div>
-<div class=col-md-1></div>
 <div class="row">
 <div class="col-md-12">
 <div class="footer">
