@@ -443,3 +443,11 @@ background-color: #B0E163;
         font:75vw;
     }
 }
+@media only screen and (max-width: 990px){
+    #about{ padding-top: 20px; 
+        font:75vw;
+       }
+    #about h1 p{
+        font:75vw;
+}
+}
