@@ -438,3 +438,6 @@ background-color: #B0E163;
 @media only screen and (max-width: 990px){
     .progress{ margin-bottom: 20px; }
 }
+@media only screen and (max-width: 990px){
+    #about{ padding-top: 20px; }
+}
