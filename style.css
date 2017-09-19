@@ -542,3 +542,19 @@ background-color: #B0E163;
 #hello{
     color:#B0E163;
 }
+
+#footer{
+    background-color:#B0E163;
+    margin:auto;
+    padding: 25px;
+}
+
+#maje{
+    padding-right:-25px;
+}
+#copyright{
+    background-color:black;
+    width:100vw;
+}
+
+
